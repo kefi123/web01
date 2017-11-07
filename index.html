@@ -4,6 +4,9 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>首页</title>
 <link rel="stylesheet" href="css/style.css" type="text/css" />
+<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+  <link rel="stylesheet" type="text/css" href="css/htmleaf-demo.css">
+   <link rel="stylesheet" href="css/csslider.default.css" />
 </head>
 	
 <body>
@@ -39,18 +42,55 @@
     </div>
     <div id="head03">
     	<div class = "menu_fistchild"><a href="#">网站首页</a></div>
-        <div class = "menu"><a href="#">网站论坛</a></div>
-        <div class = "menu"><a href="#">图片模块</a></div>
-        <div class = "menu"><a href="#">新闻中心</a></div>
-        <div class = "menu"><a href="#">广播中心</a></div>
-        <div class = "menu"><a href="#">魔客吧</a></div>
-        <div class = "menu"><a href="#">记录</a></div>
+        <div class = "menu"><a href="#">交流平台</a></div>
+        <div class = "menu"><a href="#">校内活动</a></div>
+        <div class = "menu"><a href="#">校外活动</a></div>
     </div>
   </div>
   <div id="container">
   	<div id="container_top">
     	<div id="lunbo">
-        	
+        	<div class="htmleaf-container">
+    
+        <div id="slider1" class="csslider">
+            <input type="radio" name="slides" id="slides_1" checked/>
+            <input type="radio" name="slides" id="slides_2"  />
+            <input type="radio" name="slides" id="slides_3" />
+            <input type="radio" name="slides" id="slides_4" />
+            <ul>
+                <li>
+                        <img src="./themes/stones.jpg" />
+                </li>
+                <li>
+                    <img src="./themes/stones.jpg" />
+                </li>
+                <li>
+                        <img src="./themes/stones.jpg" />
+
+                </li>
+                <li class="scrollable">
+                    <img src="./themes/stones.jpg" />
+
+                </li>
+            </ul>
+            <div class="arrows">
+                <label for="slides_1"></label>
+                <label for="slides_2"></label>
+                <label for="slides_3"></label>
+                <label for="slides_4"></label>
+            </div>
+            <div class="navigation">
+                <div>
+                    <label for="slides_1"></label>
+                    <label for="slides_2"></label>
+                    <label for="slides_3"></label>
+                    <label for="slides_4"></label>
+                </div>
+            </div>
+       
+    </div>
+    
+  </div>
         </div>
     </div>
     <div id="container_bottom"></div>
