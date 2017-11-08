@@ -112,6 +112,21 @@
 	height:1000px;	
 	background-color:#ffffff;
 }
+
+#container_bottom_left 
+{
+	width:614px;
+	height:100%;
+	background-color: #ccc;
+	margin-left: 34px;
+}
+#container_bottom_right
+{
+	width:307px;
+	height:100%;
+	background-color: #cca;
+	margin-left: 34px;
+}
 #footer{
 	width:100%;
 	height:200px;
